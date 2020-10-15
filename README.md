@@ -30,17 +30,17 @@ The datasets are available at :
 
 ### Type Discovery
 
-*HInT* requires two files as input:
+To perform type discovery for a given *dataset*,*HInT* requires two files as input:
 
-- <dataset>_instances_properties.txt where each line corresponds to an instance has the following format: 
+- *dataset*_instances_properties.txt where each line corresponds to an instance has the following format: 
     instance \t property set
-- <dataset>_instances_types.txt where each line corresponds to an instance has the following format: 
+- *dataset*_instances_types.txt where each line corresponds to an instance has the following format: 
     instance \t type set
 
-The two input files should be in a directory named <dataset>.
+The two input files should be in a directory named *dataset*.
 To perform type discovery:
     
-    python main.py <path_to_dataset_directory>
+    python main.py <path_to_*dataset*>
   
 ### Evaluation
     python evalutaion.py <output_file.cnl> <gold_standard_file>.cnl
