@@ -17,4 +17,4 @@
 	- LUBM 2GB
 	- LUBM 8GB
 
-	The datasets are available at :	[http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint).
+	The datasets are available at :	(http://islcatalog.ics.forth.gr/dataset/hint).
