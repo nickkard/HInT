@@ -17,4 +17,4 @@ The datasets used in the evaluation of HInT are:
 - LUBM 8GB
 
 The datasets are available at :	
-[SDA](http://islcatalog.ics.forth.gr/dataset/hint)
+[http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint)
