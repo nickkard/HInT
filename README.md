@@ -33,9 +33,10 @@ The datasets are available at :
 To perform type discovery for a given *dataset*,*HInT* requires two files as input:
 
 - *dataset*_instances_properties.txt where each line corresponds to an instance has the following format: 
-    instance \t property set
+    instance \t property1 property2 ... propertyN  
+    
 - *dataset*_instances_types.txt where each line corresponds to an instance has the following format: 
-    instance \t type set
+    instance \t type1 type2 ... typeN
 
 The two input files should be in a directory named *dataset*.
 To perform type discovery:
@@ -46,7 +47,7 @@ To perform type discovery:
 
 - *dataset*.cnl which contains the generated groups. Each line corresponds to a single group and contains the identifier of the patterns contained in the group.
 - *dataset*_patterns.cnl which has the following format:
-   pattern_identifier \t instance set
+   pattern_identifier \t instance1 instance2 ... instanceN
    
   
 ### Evaluation
