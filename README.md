@@ -3,12 +3,12 @@
 
 ## Source code
 
-	The source code is available inside *src* folder.
+	The source code is available inside src folder.
 
 
 ## Datasets
 
-	The datasets used in the evaluation of *HInT* are:
+	The datasets used in the evaluation of HInT are:
 	
 	- BNF
 	- Conference
