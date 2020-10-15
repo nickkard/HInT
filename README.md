@@ -45,9 +45,11 @@ To perform type discovery:
     
 *HInT* produces two files in the directory *output/dataset/*:
 
-- *dataset*.cnl which contains the generated groups. Each line corresponds to a single group and contains the identifier of the patterns contained in the group.
+- *dataset*.cnl which contains the generated groups. Each line corresponds to a single group and contains the identifier of the patterns contained in the group. It has the following format :
+  * identifier1 identifier2 ... identifierN
+  
 - *dataset*_patterns.cnl which has the following format:
-   pattern_identifier \t instance1 instance2 ... instanceN
+  * pattern_identifier \t instance1 instance2 ... instanceN
    
   
 ### Evaluation
