@@ -29,9 +29,12 @@ The datasets are available at :
 ## Usage
 
 ### Type Discovery
-  python main.py 
+
+*HInT* required two files as input:
+- 
+-
+    python main.py <path_to_input_files>
   
 ### Evaluation
-
     python evalutaion.py <output_file.cnl> <gold_standard_file>.cnl
   
