@@ -2,7 +2,7 @@
 
 ## Source code
 
-	The source code is available inside **src** folder.
+The source code is available inside *src* folder.
 
 
 ## Datasets
