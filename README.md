@@ -33,10 +33,10 @@ The datasets are available at :
 To perform type discovery for a given *dataset*,*HInT* requires two files as input:
 
 - *dataset*_instances_properties.txt where each line corresponds to an instance has the following format: 
-    instance \t property1 property2 ... propertyN  
+   * instance \t property1 property2 ... propertyN  
     
 - *dataset*_instances_types.txt where each line corresponds to an instance has the following format: 
-    instance \t type1 type2 ... typeN
+   * instance \t type1 type2 ... typeN
 
 The two input files should be in a directory named *dataset*.
 To perform type discovery:
