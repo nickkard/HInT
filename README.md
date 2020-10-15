@@ -3,7 +3,7 @@
 
 ## Source code
 
-	The source code is available inside _src_ folder.
+	The source code is available inside src folder.
 
 
 ## Datasets
