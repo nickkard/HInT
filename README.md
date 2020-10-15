@@ -42,13 +42,12 @@ To perform type discovery:
     
     python main.py <path_to_dataset_directory>
     
-*HInT* produces two files:
+*HInT* produces two files in the directory *output/dataset/*:
 
 - *dataset*.cnl which contains the generated buckets. Each line corresponds to a single bucket and contains the iderfier of the patterns contained in the bucket.
 - *dataset*_patterns.cnl which has the following format:
    pattern_identifier \t instance set
    
-generates a directory named *Output* in the same directory as the source code files, which contains a directory named *dataset*.
   
 ### Evaluation
     python evalutaion.py <output_file.cnl> <gold_standard_file>.cnl
