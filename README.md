@@ -32,5 +32,6 @@ The datasets are available at :
   python main.py 
   
 ### Evaluation
-  python evalutaion.py <output_file.cnl> <gold_standard_file>.cnl
+
+    python evalutaion.py <output_file.cnl> <gold_standard_file>.cnl
   
