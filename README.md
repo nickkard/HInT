@@ -5,10 +5,11 @@
 
 	The source code is available inside *src* folder.
 
---
+
 ## Datasets
 
 	The datasets used in the evaluation of *HInT* are:
+	
 	- BNF
 	- Conference
 	- DBpedia
@@ -16,4 +17,4 @@
 	- LUBM 2GB
 	- LUBM 8GB
 
-	The datasets are available at :	http://islcatalog.ics.forth.gr/dataset/hint
+	The datasets are available at :	[http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint).
