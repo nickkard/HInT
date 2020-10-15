@@ -1,5 +1,6 @@
 #	HInT : Hybrid and Incremental Type Discovery for Large RDF Data Sources
 
+[SDA](https://link.springer.com/chapter/10.1007/978-3-319-25264-3_36)
 
 ## Source code
 
