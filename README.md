@@ -18,3 +18,12 @@ The datasets used in the evaluation of HInT are:
 
 The datasets are available at :	
 [http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint)
+
+
+## Requirements
+
+- Python 2.7 or above
+- [Datasketch](https://github.com/ekzhu/datasketch)
+
+
+## Usage
