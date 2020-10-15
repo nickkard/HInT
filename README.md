@@ -27,3 +27,10 @@ The datasets are available at :
 
 
 ## Usage
+
+### Type Discovery
+  python main.py 
+  
+### Evaluation
+  python evalutaion.py <output_file.cnl> <gold_standard_file>.cnl
+  
