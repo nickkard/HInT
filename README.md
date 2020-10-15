@@ -6,7 +6,7 @@
 	The source code is available inside *src* folder.
 
 --
-##Datasets
+## Datasets
 
 	The datasets used in the evaluation of *HInT* are:
 	- BNF
