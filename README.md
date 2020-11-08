@@ -20,11 +20,10 @@ The first four are included in tthe *Datasets* folder of his repository.
 Four files are assosiated to each dataset:
 
 - *dataset*.rdf/nt
-- *dataset* _gt.cnl
-- *dataset* _instances_types.txt where each line corresponds to an instance has the following format: 
+- *dataset* _gt.cnl, which contains the ground truth
+- *dataset* _instances_types.txt,  where each line corresponds to an instance and has the following format: 
    * instance \t type1 type2 ... typeN
-   
-- *dataset* _instances_properties.txt where each line corresponds to an instance has the following format: 
+- *dataset* _instances_properties.txt, where each line corresponds to an instance and has the following format: 
    * instance \t property1 property2 ... propertyN  
 
 All six datasets are available at :	
