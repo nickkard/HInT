@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+   xmlns:ns1="http://data.bnf.fr/ontology/bnf-onto/"
+   xmlns:ns2="http://RDVocab.info/ElementsGr2/"
+   xmlns:ns3="http://RDVocab.info/Elements/"
+   xmlns:ns4="http://vocab.org/bio/0.1/"
+   xmlns:ns5="http://data.bnf.fr/vocabulary/roles/"
+   xmlns:ns6="http://isni.org/ontology#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:rdrel="http://rdvocab.info/RDARelationshipsWEMI/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://bp16.bnf.fr/ark:/12148/cb41873609x/">
+    <dcterms:description>In-4, 104 f. n. ch. ; sig. a-e6, f4, g-p6, q4, r-s6</dcterms:description>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb30893108c"/>
+    <dcterms:publisher>Paris : Michel Le Noir</dcterms:publisher>
+    <ns1:identifiantBP16>BP16_100596</ns1:identifiantBP16>
+    <marcrel:aut rdf:resource="http://data.bnf.fr/ark:/12148/cb12002667v#foaf:Person"/>
+    <ns3:placeOfPublication>Paris</ns3:placeOfPublication>
+    <ns3:dateOfPublication>18 juin 1505</ns3:dateOfPublication>
+    <ns1:identifiantRenouard>Renouard, ICP, I, 1505, 139</ns1:identifiantRenouard>
+    <rdrel:expressionManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb302524548#frbr:Expression"/>
+    <ns3:Note>Nom de l'auteur à l'explicit. Imprimé par Michel Le Noir le 18 juin 1505 d'après l'explicit et la marque à la fin (Renouard, Marque, 621). Deux figures gravées sur bois au titre et au verso du titre représentent la veillée mortuaire du roi ; il s'agit de Charles VII d'après l'explicit ("cy finissent les vigilles de la mort du roy Charles septiesme")</ns3:Note>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb122297260#foaf:Person"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation"/>
+    <dcterms:title>Les Vigilles du roy Charle [sic]</dcterms:title>
+    <ns3:publishersName>Michel Le Noir</ns3:publishersName>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb122297260#foaf:Person"/>
+    <dcterms:date>1505</dcterms:date>
+    <rdrel:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb11957457n#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb119560172">
+    <skos:prefLabel xml:lang="fr">Pierre Foix (1849-1891)</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">̓Ínachos</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb119560172#frbr:Work"/>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb10238420s"/>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10238420</ns1:FRBNF>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb10303514g#foaf:Person"/>
+    <skos:altLabel xml:lang="fr">Ἴναχος</skos:altLabel>
+    <skos:prefLabel xml:lang="fr">Inachos</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119560172"/>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11956017</ns1:FRBNF>
+    <skos:altLabel xml:lang="la">Inachus</skos:altLabel>
+    <skos:editorialNote xml:lang="fr">Indications &amp; contre-indications des eaux de Salies-de-Béarn / par M. le Dr Foix, impr. 2013 [Fac-sim. de l'éd. de 1883]. - . - Buste "À la mémoire du docteur Pierre Foix (1849-1891)" aux thermes de Salies-de-Béarn. - . -</skos:editorialNote>
+    <skos:editorialNote xml:lang="fr">Histoire de la littérature grecque d'Homère à Aristote / Luciano Canfora, 1994, p. 236 : forme française retenue. - . - Sophocles' « Inachus » / Dana F. Sutton, 1979 : forme latine retenue. - . - DOC / Vittorio Volpi, 1994 (sous : Sophocles. Fragmenta) : forme grecque (polytonique) retenue, translittération selon la norme ISO 843 (1997). - . -</skos:editorialNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11957457n">
+    <skos:altLabel>Rām-carit-mānas</skos:altLabel>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10342427</ns1:FRBNF>
+    <skos:altLabel>तुलसी रामायण</skos:altLabel>
+    <skos:altLabel>Śrīrāmacaritamānasa</skos:altLabel>
+    <skos:editorialNote xml:lang="fr">Le Rāmāyan de Tulsī-dās / texte hindi traduit et commenté par Charlotte Vaudeville, 1977. - . - Natl. bibliogr. of Indian lit. / gen. ed. B. S. Kesavan, Y. M. Mulay, 1966, vol. 2, p. 115 : Rāmcaritmānas. - . -</skos:editorialNote>
+    <skos:editorialNote xml:lang="fr">CORC. - http://corc.oclc.org. - 2004-12-17 LC Authorities : Tulasīdāsa, 1532-1623. Rāmacaritamānasa. Hindi. - http://authorities.loc.gov. - 2013-10-15</skos:editorialNote>
+    <skos:altLabel>Rāmcaritmānas</skos:altLabel>
+    <skos:prefLabel xml:lang="fr">Essence de la vie de Rama</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11957457n"/>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb11957457n#frbr:Work"/>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb10269486k#foaf:Person"/>
+    <skos:altLabel>Tulasī mānasa</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel>तुलसी मानस</skos:altLabel>
+    <skos:altLabel xml:lang="en">The lake of the life-story of Ram</skos:altLabel>
+    <skos:altLabel>Tulasī Rāmāyaṇa</skos:altLabel>
+    <skos:altLabel>Ramcharitmanas</skos:altLabel>
+    <skos:altLabel>Rāmacaritamānasa</skos:altLabel>
+    <skos:altLabel>श्रीरामचरितमानस</skos:altLabel>
+    <skos:altLabel>Manas</skos:altLabel>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb103424274"/>
+    <skos:editorialNote xml:lang="fr">Encycl. of world Hindi lit. / G. R. Garg, 1986 : Ramcharitmanas. - . - Dict. des littératures de l'Inde / P. S. Filliozat, 2001 : Rām-carit-mānas. - . - Dict. de la civilisation indienne / L. Frédéric, 1987 : Râmcharitmânas. - . -</skos:editorialNote>
+    <skos:altLabel>Tulsikrit Ramayan</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Le Rāmāyan de Tulsidas</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Le lac spirituel de la geste de Rām</skos:altLabel>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11957457</ns1:FRBNF>
+    <skos:altLabel>रामचरितमानस</skos:altLabel>
+    <skos:altLabel>Tulsi Ramayan</skos:altLabel>
+    <skos:altLabel>Rāmcarit mānas</skos:altLabel>
+    <skos:prefLabel xml:lang="fr">Anaïs Richetta</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb31514542k#frbr:Expression">
+    <dcterms:contributor rdf:resource="http://data.bnf.fr/ark:/12148/cb10269486k#foaf:Person"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb119387788">
+    <skos:editorialNote xml:lang="fr">Wikipédia. - http://fr.wikipedia.org/wiki/Paul_Petit_%28%C3%A9crivain%29. - 2012-12-14 BN Cat. gén. : Petit (Agénor). - . -</skos:editorialNote>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119387788"/>
+    <ns6:identifierValid rdf:datatype="http://www.w3.org/2001/XMLSchema#long">52043273</ns6:identifierValid>
+    <skos:prefLabel xml:lang="fr">L'enfer</skos:prefLabel>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10284906</ns1:FRBNF>
+    <skos:editorialNote xml:lang="fr">M. Bergson et le rationalisme / par Agénor Petit. Suivi d'une lettre / de M. Bergson, 1921. - . - M. Bergson et le réalisme / Paul Petit. Suivi d'une Lettre de M. Bergson [à Agénor Petit] In : Bergson / sous la direction de Camille Riquier..., 2012 [p. 488, porte par erreur "...pseudonyme... Agénor Petit (son second prénom)"]. - . -</skos:editorialNote>
+    <skos:editorialNote xml:lang="fr">Encicl. italiana (sous : Dante Alighieri) : Inferno. - . - Laffont-Bompiani, Oeuvres, 1994 (sous : La divine comédie) : L'enfer. - . -</skos:editorialNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11938778</ns1:FRBNF>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb10284906p"/>
+    <owl:sameAs rdf:resource="http://isni-url.oclc.nl/isni/0000000052043273"/>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb119387788#frbr:Work"/>
+    <skos:prefLabel xml:lang="fr">Agénor Petit (1893-1944)</skos:prefLabel>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb10303514g#foaf:Person"/>
+    <skos:altLabel xml:lang="it">Inferno</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11952593k">
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb10300907k#foaf:Person"/>
+    <skos:altLabel xml:lang="it">Il barone rampante</skos:altLabel>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10300907</ns1:FRBNF>
+    <skos:editorialNote xml:lang="fr">Lett. Ital., 1990-1991 (sous : Calvino, Italo) : forme retenue. - . - Laffont Bompiani, Oeuvres, 1994 : Le baron perché. - . -</skos:editorialNote>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb10300907k"/>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11952593</ns1:FRBNF>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11952593k"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Le baron perché</skos:prefLabel>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb11952593k#frbr:Work"/>
+    <skos:altLabel xml:lang="fr">L. Boissonnas (1821?-18..)</skos:altLabel>
+    <skos:prefLabel xml:lang="fr">Louis Octave Boissonnas (1821?-18..)</skos:prefLabel>
+    <skos:editorialNote xml:lang="fr">Doctrine de la nouvelle école, d'après MM. Réville, A. Coquerel fils et Colani, par L. Boissonnas, 1864. - . - Famille Boissonnas. - http://www.roelly.org/~pro_picards/prop/pag71.html. - 2008-08-19</skos:editorialNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bp16.bnf.fr/ark:/12148/cb41875712k/">
+    <ns3:Note>Titre pris à l'explicit. L'adresse (« in vico diui Iacobi sub signo leonis argentei ») est en 1515, vraisemblablement encore, celle de J. Bienayse. 22 avril 1515, n. st. (date au colophon : « M.CCCCC.xv decimo Kalendas Maii »)</ns3:Note>
+    <ns3:sourceConsulted>H. Bohatta, Bibliographie der Breviere, 1501-1850, Leipzig, 1937, 2678</ns3:sourceConsulted>
+    <rdrel:expressionManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb31514549k#frbr:Expression"/>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb16649510q#foaf:Person"/>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb12230777x#foaf:Person"/>
+    <dcterms:date>1515</dcterms:date>
+    <ns1:identifiantBP16>BP16_102699</ns1:identifiantBP16>
+    <rdrel:workManifested>http://data.bnf.fr/ark:/12148/cb13369956m</rdrel:workManifested>
+    <ns3:dateOfPublication>22 avril 1515</ns3:dateOfPublication>
+    <dcterms:publisher>Paris : [Jean Bienayse ?] ; Rouen : Richard Macé</dcterms:publisher>
+    <marcrel:aut rdf:resource="http://data.bnf.fr/ark:/12148/cb11869191h#foaf:Person"/>
+    <rdrel:expressionManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb31514542k#frbr:Expression"/>
+    <dcterms:title>[Pars estiualis tam de tempore quam de sanctis Breuarii Sarum nouissime recognita.] </dcterms:title>
+    <ns3:placeOfPublication>Paris; Rouen</ns3:placeOfPublication>
+    <ns1:identifiantRenouard>Renouard, ICP, II, 1038</ns1:identifiantRenouard>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb16649510q#foaf:Person"/>
+    <rdrel:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb119455488#frbr:Work"/>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb12230777x#foaf:Person"/>
+    <dcterms:description>In-8</dcterms:description>
+    <rdrel:expressionManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb315510010#frbr:Expression"/>
+    <ns3:publishersName>[Jean Bienayse ?]; Richard Macé</ns3:publishersName>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bp16.bnf.fr/ark:/12148/cb418784939/">
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb12261563j#foaf:Person"/>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb12239042h#foaf:Person"/>
+    <rdrel:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb11950363m#frbr:Work"/>
+    <ns1:identifiantRenouard>Renouard, ICP, III, 1296</ns1:identifiantRenouard>
+    <ns3:dateOfPublication>Novembre 1527</ns3:dateOfPublication>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb12239042h#foaf:Person"/>
+    <ns3:publishersName>Claude Chevallon, Jean Petit</ns3:publishersName>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb12261563j#foaf:Person"/>
+    <ns3:placeOfPublication>Paris</ns3:placeOfPublication>
+    <ns1:identifiantBP16>BP16_105480</ns1:identifiantBP16>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation"/>
+    <dcterms:description>In-8</dcterms:description>
+    <dcterms:title>Sermones quadraginta De destructione Niniue... ♦</dcterms:title>
+    <dcterms:date>1527</dcterms:date>
+    <dcterms:publisher>Paris : Claude Chevallon, Jean Petit</dcterms:publisher>
+    <ns3:Note>Suit l'édition de 1525 = BP16_105057</ns3:Note>
+    <marcrel:aut rdf:resource="http://data.bnf.fr/ark:/12148/cb155715312#foaf:Person"/>
+    <rdrel:expressionManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb31514547k#frbr:Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11946741n#frbr:Work">
+    <dcterms:subject rdf:resource="http://data.bnf.fr/11946741/pedro_calderon_de_la_barca_le_grand_theatre_du_monde/studies"/>
+    <ns3:dateOfWork rdf:resource="http://data.bnf.fr/date/1601-1700/"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+    <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb11894840z#foaf:Person"/>
+    <rdfs:label>Le grand théâtre du monde</rdfs:label>
+    <dcterms:subject rdf:resource="http://dewey.info/class/800/"/>
+    <ns1:subject>Littératures</ns1:subject>
+    <dcterms:title xml:lang="fr">Le grand théâtre du monde</dcterms:title>
+    <dcterms:description xml:lang="fr">Drame religieux</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb119331203#frbr:Work">
+    <ns1:subject>Littératures</ns1:subject>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb11998463n#foaf:Person"/>
+    <rdfs:label>Les paravents</rdfs:label>
+    <dcterms:subject rdf:resource="http://data.bnf.fr/11933120/jean_genet_les_paravents/studies"/>
+    <dcterms:title xml:lang="fr">Les paravents</dcterms:title>
+    <dcterms:subject rdf:resource="http://dewey.info/class/800/"/>
+    <dcterms:date>1961</dcterms:date>
+    <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <ns3:dateOfWork rdf:resource="http://data.bnf.fr/date/1961/"/>
+    <dcterms:description xml:lang="fr">Pièce de théâtre</dcterms:description>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bp16.bnf.fr/ark:/12148/cb418748714/">
+    <ns3:dateOfPublication>24 octobre 1511</ns3:dateOfPublication>
+    <ns1:identifiantBP16>BP16_101858</ns1:identifiantBP16>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb12389091x#foaf:Person"/>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb12261563j#foaf:Person"/>
+    <dcterms:description>In-4</dcterms:description>
+    <rdrel:expressionManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb41172627d#frbr:Expression"/>
+    <dcterms:date>1511</dcterms:date>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb12389091x#foaf:Person"/>
+    <ns3:publishersName>les Frères de Marnef, Jean Petit</ns3:publishersName>
+    <marcrel:aut rdf:resource="http://data.bnf.fr/ark:/12148/cb11887624p#foaf:Person"/>
+    <dcterms:publisher>Paris : les Frères de Marnef, Jean Petit</dcterms:publisher>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb15046560c#foaf:Person"/>
+    <rdrel:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb11952593k#frbr:Work"/>
+    <ns3:placeOfPublication>Paris</ns3:placeOfPublication>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb15046560c#foaf:Person"/>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb15046491c#foaf:Person"/>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb14565557c#foaf:Person"/>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb15046491c#foaf:Person"/>
+    <ns1:identifiantRenouard>Renouard, ICP, II, 205</ns1:identifiantRenouard>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb12261563j#foaf:Person"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation"/>
+    <dcterms:title>♦ Bucolica seu Adolescentia</dcterms:title>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb14565557c#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb41172627d#frbr:Expression">
+    <marcrel:edt rdf:resource="http://data.bnf.fr/ark:/12148/cb102316737#foaf:Person"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression"/>
+    <ns5:r360 rdf:resource="http://data.bnf.fr/ark:/12148/cb102316737#foaf:Person"/>
+    <dcterms:contributor rdf:resource="http://data.bnf.fr/ark:/12148/cb102316737#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bp16.bnf.fr/ark:/12148/cb41877832z/">
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb122305719#foaf:Person"/>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb12261563j#foaf:Person"/>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb12230911j#foaf:Person"/>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb12261563j#foaf:Person"/>
+    <rdrel:workManifested>http://data.bnf.fr/ark:/12148/cb13736009z</rdrel:workManifested>
+    <dcterms:publisher>Paris : [Ambroise Girault], Jean Petit, Jean Prevel</dcterms:publisher>
+    <dcterms:date>1524</dcterms:date>
+    <ns3:publishersName>[Ambroise Girault], Jean Petit, Jean Prevel</ns3:publishersName>
+    <marcrel:bsl rdf:resource="http://data.bnf.fr/ark:/12148/cb122305719#foaf:Person"/>
+    <ns3:placeOfPublication>Paris</ns3:placeOfPublication>
+    <ns1:identifiantBP16>BP16_104819</ns1:identifiantBP16>
+    <ns3:Note>Au verso du dernier feuillet, marque de Pierre Viart (†avant le 8 août 1523), utilisée par son successeur A. Girault</ns3:Note>
+    <dcterms:title>Argumentum Institutionum imperialium</dcterms:title>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation"/>
+    <dcterms:description>In-8</dcterms:description>
+    <ns1:identifiantRenouard>Renouard, ICP, III, 645</ns1:identifiantRenouard>
+    <ns5:r3260 rdf:resource="http://data.bnf.fr/ark:/12148/cb12230911j#foaf:Person"/>
+    <ns3:dateOfPublication>31 mars 1524</ns3:dateOfPublication>
+    <rdrel:workManifested rdf:resource="http://data.bnf.fr/ark:/12148/cb119558489#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb102316737#foaf:Person">
+    <foaf:page rdf:resource="http://data.bnf.fr/ark:/12148/cb102316737"/>
+    <ns2:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:givenName>Paul</foaf:givenName>
+    <foaf:name>Paul Bardon</foaf:name>
+    <ns2:placeOfBirth>Bordeaux</ns2:placeOfBirth>
+    <foaf:gender>male</foaf:gender>
+    <foaf:familyName>Bardon</foaf:familyName>
+    <dcterms:date>1816-1890</dcterms:date>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/160953637"/>
+    <foaf:birthday>09-05</foaf:birthday>
+    <ns4:Birth>1816-09-05</ns4:Birth>
+    <ns2:dateOfDeath rdf:resource="http://data.bnf.fr/date/1890/"/>
+    <ns2:dateOfBirth rdf:resource="http://data.bnf.fr/date/1816/"/>
+    <ns2:biographicalInformation>Magistrat</ns2:biographicalInformation>
+    <ns4:Death>1890-11-09</ns4:Death>
+    <ns2:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/fr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11957457n#frbr:Work">
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+    <dcterms:subject rdf:resource="http://data.bnf.fr/11957457/tulasidasa_essence_de_la_vie_de_rama/studies"/>
+    <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/awa"/>
+    <dcterms:description xml:lang="fr">Poème glorifiant le dieu Rāma, composé de 7 livres (khaṇḍas) en hindi oriental (awadhi)</dcterms:description>
+    <dcterms:title xml:lang="fr">Essence de la vie de Rama</dcterms:title>
+    <rdfs:label>Essence de la vie de Rama</rdfs:label>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb10269486k#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb119558489">
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb119558489#frbr:Work"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Auguste_de_Montferrand"/>
+    <rdfs:seeAlso rdf:resource="http://fr.wikipedia.org/wiki/Auguste_Ricard_de_Montferrand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Auguste Ricard dit de Montferrand (1786-1858)</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Auguste Ricard de Montferrand (1786-1858)</skos:altLabel>
+    <owl:sameAs rdf:resource="http://isni-url.oclc.nl/isni/0000000066411188"/>
+    <skos:altLabel xml:lang="fr">Auguste de Montferrand (1786-1858)</skos:altLabel>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb10037836p"/>
+    <ns6:identifierValid rdf:datatype="http://www.w3.org/2001/XMLSchema#long">66411188</ns6:identifierValid>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11955848</ns1:FRBNF>
+    <owl:sameAs rdf:resource="http://www.idref.fr/137112254"/>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119558489"/>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb102316737#foaf:Person"/>
+    <skos:prefLabel xml:lang="de">Die Gestundete Zeit</skos:prefLabel>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10037836</ns1:FRBNF>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb10303514g#foaf:Person">
+    <ns4:Death>1941-12-28</ns4:Death>
+    <ns2:dateOfDeath rdf:resource="http://data.bnf.fr/date/1941/"/>
+    <foaf:familyName>Chausse</foaf:familyName>
+    <ns2:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/fr"/>
+    <foaf:name>Émile Chausse</foaf:name>
+    <foaf:gender>male</foaf:gender>
+    <ns4:Birth>1850-07-06</ns4:Birth>
+    <ns2:placeOfDeath>Nogent-sur-Marne (Val-de-Marne)</ns2:placeOfDeath>
+    <ns2:placeOfBirth>Paris</ns2:placeOfBirth>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:birthday>07-06</foaf:birthday>
+    <foaf:page rdf:resource="http://data.bnf.fr/ark:/12148/cb10303514g"/>
+    <foaf:givenName>Émile</foaf:givenName>
+    <ns2:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <dcterms:date>1850-1941</dcterms:date>
+    <ns2:biographicalInformation>Homme politique. - Fondateur de la Chambre syndicale de l'ébénisterie (en 1868). - Conseiller prud'homme (1882-1893). - Co-fondateur du Parti ouvrier socialiste révolutionnaire. - Conseiller municipal de Paris</ns2:biographicalInformation>
+    <ns2:dateOfBirth rdf:resource="http://data.bnf.fr/date/1850/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb103089692#foaf:Person">
+    <foaf:name>Jules Formige</foaf:name>
+    <foaf:givenName>Jules</foaf:givenName>
+    <dcterms:date>1879-1960</dcterms:date>
+    <ns2:biographicalInformation>Architecte, Membre de l'Institut, Académie des beaux-arts (élu en 1942)</ns2:biographicalInformation>
+    <ns4:Death>1960-08-17</ns4:Death>
+    <ns2:placeOfDeath>Paris</ns2:placeOfDeath>
+    <ns2:placeOfBirth>Paris</ns2:placeOfBirth>
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/24978598"/>
+    <ns2:dateOfBirth rdf:resource="http://data.bnf.fr/date/1879/"/>
+    <foaf:birthday>06-23</foaf:birthday>
+    <ns2:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/fr"/>
+    <ns2:dateOfDeath rdf:resource="http://data.bnf.fr/date/1960/"/>
+    <foaf:page rdf:resource="http://data.bnf.fr/ark:/12148/cb103089692"/>
+    <foaf:familyName>Formige</foaf:familyName>
+    <ns4:Birth>1879-06-23</ns4:Birth>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <ns2:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <foaf:gender>male</foaf:gender>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb119558489#frbr:Work">
+    <dcterms:date>1953</dcterms:date>
+    <dcterms:description xml:lang="fr">Recueil de poèmes</dcterms:description>
+    <dcterms:subject rdf:resource="http://dewey.info/class/800/"/>
+    <rdfs:label>Die Gestundete Zeit</rdfs:label>
+    <dcterms:subject rdf:resource="http://data.bnf.fr/11955848/ingeborg_bachmann_die_gestundete_zeit/studies"/>
+    <ns3:dateOfWork rdf:resource="http://data.bnf.fr/date/1953/"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+    <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+    <dcterms:title xml:lang="de">Die Gestundete Zeit</dcterms:title>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb102316737#foaf:Person"/>
+    <ns1:subject>Littératures</ns1:subject>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb302524548#frbr:Expression">
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression"/>
+    <dcterms:contributor rdf:resource="http://data.bnf.fr/ark:/12148/cb10190409d#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb10269486k#foaf:Person">
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/56598466"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b90223935.thumbnail"/>
+    <ns4:Death>1958-07-17</ns4:Death>
+    <foaf:depiction rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b6911058n.thumbnail"/>
+    <foaf:givenName>Henry</foaf:givenName>
+    <foaf:gender>male</foaf:gender>
+    <ns2:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <ns2:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/fr"/>
+    <ns4:Birth>1874-05-26</ns4:Birth>
+    <dcterms:date>1874-1958</dcterms:date>
+    <ns2:fieldOfActivityOfThePerson>Sports et jeux</ns2:fieldOfActivityOfThePerson>
+    <ns2:biographicalInformation>Cycliste, coureur automobile, aviateur</ns2:biographicalInformation>
+    <ns2:placeOfDeath>Paris</ns2:placeOfDeath>
+    <ns2:dateOfBirth rdf:resource="http://data.bnf.fr/date/1874/"/>
+    <foaf:name>Henry Farman</foaf:name>
+    <ns2:placeOfBirth>Paris</ns2:placeOfBirth>
+    <foaf:page rdf:resource="http://data.bnf.fr/ark:/12148/cb10269486k"/>
+    <foaf:birthday>05-26</foaf:birthday>
+    <ns2:fieldOfActivityOfThePerson rdf:resource="http://dewey.info/class/793/"/>
+    <ns2:dateOfDeath rdf:resource="http://data.bnf.fr/date/1958/"/>
+    <foaf:familyName>Farman</foaf:familyName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb315510010#frbr:Expression">
+    <ns5:r70 rdf:resource="http://data.bnf.fr/ark:/12148/cb10303514g#foaf:Person"/>
+    <dcterms:contributor rdf:resource="http://data.bnf.fr/ark:/12148/cb10303514g#foaf:Person"/>
+    <marcrel:aut rdf:resource="http://data.bnf.fr/ark:/12148/cb10303514g#foaf:Person"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11952593k#frbr:Work">
+    <dcterms:subject rdf:resource="http://data.bnf.fr/11952593/italo_calvino_le_baron_perche/studies"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+    <rdfs:label>Le baron perché</rdfs:label>
+    <ns1:subject>Littératures</ns1:subject>
+    <dcterms:description xml:lang="fr">Roman formant avec "Il visconte dimezzato" (1952) et "Il cavaliere inesistente" (1959) la trilogie "I nostri antenati"</dcterms:description>
+    <dcterms:date>1957</dcterms:date>
+    <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ita"/>
+    <dcterms:title xml:lang="fr">Le baron perché</dcterms:title>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb10303514g#foaf:Person"/>
+    <ns3:dateOfWork rdf:resource="http://data.bnf.fr/date/1957/"/>
+    <dcterms:subject rdf:resource="http://dewey.info/class/800/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11939532n">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:editorialNote xml:lang="fr">Oxford English lit., 1985 (sous : Milton, John) : forme retenue. - . - Laffont Bompiani, Oeuvres, 1994 : Le paradis perdu. - . -</skos:editorialNote>
+    <skos:altLabel xml:lang="en">Paradise lost</skos:altLabel>
+    <skos:prefLabel xml:lang="fr">Le paradis perdu</skos:prefLabel>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb11950363m#frbr:Work"/>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11939532n"/>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11939532</ns1:FRBNF>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb31514549k#frbr:Expression">
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression"/>
+    <dcterms:contributor rdf:resource="http://data.bnf.fr/ark:/12148/cb10269486k#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb10190409d#foaf:Person">
+    <owl:sameAs rdf:resource="http://viaf.org/viaf/231073837"/>
+    <ns2:dateOfBirth rdf:resource="http://data.bnf.fr/date/0301-0400/"/>
+    <ns2:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/lat"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:gender>male</foaf:gender>
+    <dcterms:date>03..-03..?</dcterms:date>
+    <foaf:familyName>Hégésippe</foaf:familyName>
+    <ns4:Death>03..</ns4:Death>
+    <ns2:biographicalInformation>Auteur chrétien de la seconde moitié du quatrième siècle qui traduisit en latin en le remaniant le "De bello Iudaico" de Flavius Josèphe. - Le nom d'Hégésippe lui fut attribué par identification avec un auteur du IIe siècle mentionné par Eusèbe de Césarée dans son Histoire ecclésiastique, ou bien encore par corruption du nom de Flavius Josèphe ("Iosippus")</ns2:biographicalInformation>
+    <ns2:dateOfDeath rdf:resource="http://data.bnf.fr/date/0301-0400/"/>
+    <ns4:Birth>03..</ns4:Birth>
+    <foaf:page rdf:resource="http://data.bnf.fr/ark:/12148/cb10190409d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb119455488#frbr:Work">
+    <dcterms:subject rdf:resource="http://dewey.info/class/150/"/>
+    <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb103089692#foaf:Person"/>
+    <dcterms:description xml:lang="fr">Essai de psychologie sexuelle en milieu carcéral</dcterms:description>
+    <ns1:subject>Psychologie</ns1:subject>
+    <dcterms:date>1978</dcterms:date>
+    <rdfs:label>La guillotine du sexe</rdfs:label>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+    <dcterms:title xml:lang="fr">La guillotine du sexe</dcterms:title>
+    <ns3:dateOfWork rdf:resource="http://data.bnf.fr/date/1978/"/>
+    <dcterms:subject rdf:resource="http://data.bnf.fr/11945548/jacques_lesage_de_la_haye_la_guillotine_du_sexe/studies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb119455488">
+    <skos:prefLabel xml:lang="fr">La guillotine du sexe</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11945548</ns1:FRBNF>
+    <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119455488"/>
+    <foaf:focus rdf:resource="http://data.bnf.fr/ark:/12148/cb119455488#frbr:Work"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb31514547k#frbr:Expression">
+    <dcterms:contributor rdf:resource="http://data.bnf.fr/ark:/12148/cb10269486k#foaf:Person"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11950363m#frbr:Work">
+    <dcterms:subject rdf:resource="http://data.bnf.fr/11950363/karl_may__das__waldroschen/studies"/>
+    <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Work"/>
+    <dcterms:title xml:lang="fr">:Das: Waldröschen</dcterms:title>
+    <rdfs:label>:Das: Waldröschen</rdfs:label>
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb10190409d#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb16671869w#frbr:Work">
+    <dcterms:creator rdf:resource="http://data.bnf.fr/ark:/12148/cb10178399f#foaf:Person"/>
+  </rdf:Description>
+</rdf:RDF>
+
