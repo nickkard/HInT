@@ -16,15 +16,20 @@ The datasets used in the evaluation of HInT are:
 - LUBM 2GB
 - LUBM 8GB
 
-The first four are included in this repository, while all six are available at :	
-[http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint)
-
+The first four are included in tthe *Datasets* folder of his repository. 
 Four files are assosiated to each dataset:
 
-- *dataset*.rdf
-- *dataset* _gt.rdf
-- *dataset* _instances_types.txt
-- *dataset* _instances_properties.txt
+- *dataset*.rdf/nt
+- *dataset* _gt.cnl
+- *dataset* _instances_types.txt where each line corresponds to an instance has the following format: 
+   * instance \t type1 type2 ... typeN
+   
+- *dataset* _instances_properties.txt where each line corresponds to an instance has the following format: 
+   * instance \t property1 property2 ... propertyN  
+
+All six datasets are available at :	
+[http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint)
+
 
 ## Requirements
 
