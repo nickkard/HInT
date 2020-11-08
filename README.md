@@ -21,9 +21,10 @@ The first four are included in this repository, while all six are available at :
 
 Four files are assosiated to each dataset:
 
-- <dataset>.rdf
-- <dataset>_gt.rdf
-
+- *dataset*.rdf
+- *dataset* _gt.rdf
+- *dataset* _instances_types.txt
+- *dataset* _instances_properties.txt
 
 ## Requirements
 
