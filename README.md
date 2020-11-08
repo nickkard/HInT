@@ -45,6 +45,10 @@ To perform type discovery for a given *dataset*:
     
     python main.py <path_to_dataset_directory>
     
+E.g. to execute *HInT* on BNF subset:
+
+    python main.py ../Datasets/BNF_subset/BNF_subset.rdf
+    
 To perform type discovery for a given *dataset* and measure the execution time:
 
     ./exectime python main.py <path_to_dataset_directory>
@@ -62,5 +66,5 @@ To perform type discovery for a given *dataset* and measure the execution time:
 
 To evaluate the generated groups against the gold standard:
 
-    python evalutaion.py <output/dataset/dataset.cnl> <gold_standard_file>.cnl
+    python evalutaion.py <output/dataset/dataset.cnl> <dataset_gt>.cnl
   
