@@ -10,6 +10,7 @@ from rdflib import BNode
 from rdflib import Graph
 
 import LSDisc_MinHash
+import main
 
 #   define parser for input arguments
 #   1 mandatory argument:
@@ -535,20 +536,12 @@ def calculate_average_score(result_file):
     return average_precision, average_recall, average_f1
 
 
-
-
-'''def remove_duplicates_reduce_size(buckets, dict_instances_buckets):
-    start_time = time.time()
-
-    distinct_buckets = list()
-    for bucket in buckets:
-        if bucket not in distinct_buckets:
-            distinct_buckets.append(bucket)
-
-            for instance in dict_instances_buckets.keys():
-                if buckets[dict_instances_buckets[instance]] == bucket:
-                    dict_instances_buckets[instance] = distinct_buckets.index(bucket)
-
-    end_time = time.time()
-    print("\tReduced size of dict and removed duplicate buckets in %.04f seconds" %(end_time - start_time))
-    return distinct_buckets, dict_instances_buckets'''
+def set_b_r(dataset):
+    if 'BNF' in dataset:
+        return 7,2
+    elif 'conference' in dataset:
+        return 9,2
+    elif 'DBpedia' in dataset:
+        return 10,3
+    elif 'hist' in dataset:
+        return 7,4

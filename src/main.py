@@ -1,9 +1,9 @@
 import sys
 import os
 import LSDisc_MinHash
-import LSDisc_RandomProjection
+#import LSDisc_RandomProjection
 import LSDisc_General
-import LSDisc_Incremental
+#import LSDisc_Incremental
 import evaluation
 from tabulate import tabulate
 
@@ -30,8 +30,8 @@ if __name__ == '__main__':
 
 	dataset = str(args.input_file)
 
-	b = 4
-	r = 7
+	#b = 0
+	#r = 0
 	iterations = 1
 
 	if not args.incremental:
@@ -61,12 +61,14 @@ if __name__ == '__main__':
 
 			#f = open(result_file, "w")
 
+			b,r = LSDisc_General.set_b_r(dataset)
+
 			for i in range(iterations):
 
 				LSDisc_General.printGreen("Step 1: Initializing MinHash LSH Index\n")
 				LSDisc_MinHash.init_LSH(b, r)
 
-				LSDisc_General.printGreen("Step 2: Do MAGIC!\n")
+				LSDisc_General.printGreen("\nStep 2: Type Discovery\n")
 				LSDisc_MinHash.process_instances(i, input_dir, output_dir)
 				
 				groups = LSDisc_MinHash.dict_patterns_groups.values()
@@ -100,11 +102,7 @@ if __name__ == '__main__':
 						if bucket not in buckets:
 							buckets.append(bucket)'''
 
-				print("Max bucket len: %d" %max_len)
-
-				print("Numgber of generated groups: %d\n" %len(buckets))
-
-				
+				#print("Max bucket len: %d" %max_len)				
 
 				#print("Numgber of generated groups: %d\n" %len(buckets))
 
@@ -140,7 +138,7 @@ if __name__ == '__main__':
 			LSDisc_General.output_patterns_instances(output_dir, LSDisc_MinHash.dict_patterns)
 
 
-		elif args.hash_function[0] == "rp":
+		'''elif args.hash_function[0] == "rp":
 			
 			LSDisc_General.printGreen("Step 1: Loading dataset " + dataset.split('/')[-1] + "\n")
 			returned_values = LSDisc_RandomProjection.load_dataset_RP(dataset)
@@ -196,7 +194,7 @@ if __name__ == '__main__':
 
 	if args.ground_truth:
 		LSDisc_General.printGreen("Generating gold standard.\n")
-		LSDisc_General.create_gold_standard(g, dataset)
+		LSDisc_General.create_gold_standard(g, dataset)'''
 
 	#LSDisc_General.printGreen("Step 4: Creating type profiles\n")
 	#LSDisc_MinHash.create_type_profiles(buckets)

@@ -16,7 +16,7 @@ from datasketch import MinHash, MinHashLSH
 from MyMinHashLSH import MyMinHashLSH
 
 import LSDisc_General
-import LSDisc_RandomProjection
+#import LSDisc_RandomProjection
 import Group
 import Pattern
 
@@ -55,7 +55,7 @@ stepList = list()
 
 lsh_index = None
 
-type_existance_probability = 0.25
+type_existance_probability = 0.75
 #	-----------------------------------------------------------------
 
 #	initialize LSH Index
@@ -248,7 +248,7 @@ def process_instances(iteration, input_dir, output_path):
 		#f_processed.write(str(i) + '\n')
 		#print i
 		#print("Len : %d" %LSDisc_General.get_size(lsh_index))
-		#i += 1
+		i += 1
 
 		#if i % 1000000 == 0:
 		#	print i
