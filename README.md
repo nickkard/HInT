@@ -34,31 +34,27 @@ All six datasets are available at :
 
 - Python 2.7 or above
 - [Datasketch](https://github.com/ekzhu/datasketch)
+- Exectime (included in *src* folder)
 
 
 ## Usage
 
 ### Type Discovery
 
-To perform type discovery for a given *dataset*,*HInT* requires two files as input:
-
-- *dataset*_instances_properties.txt where each line corresponds to an instance has the following format: 
-   * instance \t property1 property2 ... propertyN  
-    
-- *dataset*_instances_types.txt where each line corresponds to an instance has the following format: 
-   * instance \t type1 type2 ... typeN
-
-The two input files should be in a directory named *dataset*.
-To perform type discovery:
+To perform type discovery for a given *dataset*:
     
     python main.py <path_to_dataset_directory>
     
+To perform type discovery for a given *dataset* and measure the execution time:
+
+    ./exectime python main.py <path_to_dataset_directory>
+
 *HInT* produces two files in the directory *output/dataset/*:
 
-- *dataset*.cnl which contains the generated groups. Each line corresponds to a single group and contains the identifier of the patterns contained in the group. It has the following format :
+- *dataset*.cnl, which contains the generated groups. Each line corresponds to a single group and contains the identifier of the patterns contained in the group. It has the following format :
   * identifier1 identifier2 ... identifierN
   
-- *dataset*_patterns.cnl which has the following format:
+- *dataset*_patterns.cnl, which has the following format:
   * pattern_identifier \t instance1 instance2 ... instanceN
    
   
