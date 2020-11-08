@@ -19,6 +19,11 @@ The datasets used in the evaluation of HInT are:
 The first four are included in this repository, while all six are available at :	
 [http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint)
 
+Four files are assosiated to each dataset:
+
+- <dataset>.rdf
+- <dataset>_gt.rdf
+
 
 ## Requirements
 
