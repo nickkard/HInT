@@ -26,7 +26,7 @@ Four files are assosiated to each dataset:
 - *dataset* _instances_properties.txt, where each line corresponds to an instance and has the following format: 
    * instance \t property1 property2 ... propertyN  
 
-All six datasets are available at :	
+All six datasets are available at:	
 [http://islcatalog.ics.forth.gr/dataset/hint](http://islcatalog.ics.forth.gr/dataset/hint)
 
 
